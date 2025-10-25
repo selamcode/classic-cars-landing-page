@@ -1,1 +1,1 @@
-# A landing page for classic cars.
+# A landing page for my favorite classic cars.
