@@ -6,6 +6,45 @@ body{
     flex: 1;
 }
 
+/* nav bar */
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap:24px
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-bar a:hover {
+  color: #3882f6;
+}
+
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  filter: brightness(1.2);
+  background-color: #1f2937;   
+  border-radius: 50%;         
+  padding: 6px;                
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(56, 130, 246, 0.6);
+}
+
+/* Section 1 */
 .section-one{
     display: flex;
     justify-content: space-between;
@@ -16,12 +55,7 @@ body{
     padding: 50px 50px;
 }
 
-.nav-bar{
-    display: flex;
-    list-style: none;
-    gap:24px
-}
-
+/* Section 2 */
 .section-two{
     display: flex;
     justify-content: space-around;
@@ -69,6 +103,7 @@ body{
     background-color: #3882f6;
     border-radius: 8px;
     color: white;
+    border: 2px solid #f9faf8;
     font-size: 18px;
 }
 
@@ -112,9 +147,9 @@ ul{
 .section-four {
     display: flex;
     flex-direction: column;
-    justify-content: space-around; /* center vertically */
-    align-items: center;     /* center horizontally */
-    padding:10px 10px;           /* smaller padding */
+    justify-content: space-around; 
+    align-items: center;     
+    padding:10px 10px;    
     background-color: #e5e7eb;
     flex-wrap: wrap;
     
@@ -138,7 +173,6 @@ ul{
 }
 
 /* section 5 */
-
 .section-five{
     display: flex;
     flex-direction: row;
@@ -183,7 +217,6 @@ ul{
 }
 
 /* section 6 */
-
 .section-six{
     display: flex;
     flex-direction: row;
@@ -197,38 +230,4 @@ ul{
 }
 
 
-/* nav bar */
-
-html {
-  scroll-behavior: smooth;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.nav-bar a:hover {
-  color: #3882f6;
-}
-
-/* Logo styling */
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo img {
-  filter: brightness(1.2);
-  background-color: #1f2937;   /* dark background to fit theme */
-  border-radius: 50%;          /* makes it circular */
-  padding: 6px;                /* spacing inside the circle */
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.logo img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 8px rgba(56, 130, 246, 0.6); /* subtle glow */
-}
 
