@@ -3,7 +3,6 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     height:100svh;
-    /* font-family: 'Roboto'; */
     flex: 1;
 }
 
@@ -138,18 +137,6 @@ ul{
     font-weight: bold;
 }
 
-
-/* .section-four p {
-    text-align: left;
-    width: 100%;            
-    max-width: 750px;        
-    font-size: 36px;
-    font-weight: 300;
-    color: #1f2937;
-    margin: 0;
-    box-sizing: border-box;
-    overflow: auto;
-} */
 /* section 5 */
 
 .section-five{
