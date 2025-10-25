@@ -1,0 +1,247 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:100svh;
+    /* font-family: 'Roboto'; */
+    flex: 1;
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 50px;
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap:24px
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px 10px;
+    gap: 10px;
+    flex: 1;
+}
+.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Roboto';
+    flex-wrap: nowrap;
+}
+.text-box h1,
+.text-box p, button{
+    margin: 0px;        
+}
+.section-two .text-box p {
+    font-size: 18px;    /* normal paragraph size */
+    font-weight: 400;   /* normal weight */
+    margin: 0;
+    color: #e5e7eb;    
+}
+
+.section-two img {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+
+}
+.section-two h1{
+    font-size: 48px;
+    font-weight: 900px;
+    color:#f9faf8
+}
+.section-two button{
+    width: 125px;
+    height: 40px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Section 3 */
+ul{
+    list-style: none;
+}
+.section-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    flex:1;  
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    gap: 36px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0px;
+ 
+    
+}
+.pictures li{
+    width: 150px;
+    color: gray;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.car-item img{
+    border-radius: 12px;
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+}
+
+/* Section 4 */
+.section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* center vertically */
+    align-items: center;     /* center horizontally */
+    padding:10px 10px;           /* smaller padding */
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+    
+}
+.quote{
+
+    font-size:18px;
+    
+    font-family: 'Roboto';
+    width: 440px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.who-said-it{
+    text-align: right;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 100px;
+    font-weight: bold;
+}
+
+
+/* .section-four p {
+    text-align: left;
+    width: 100%;            
+    max-width: 750px;        
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+} */
+/* section 5 */
+
+.section-five{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:  center;
+    padding: 100px 100px;
+    flex: 1;
+}
+.cta-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    width: 900px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 30px 20px;
+   
+}
+.cta-wrapper button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border:2px solid #e5e7eb;
+    width: 90px;
+    height: 50px;
+    align-self: center;
+    border-radius: 12px;
+}
+.cta-wrapper p{
+    color: #e5e7eb;
+    
+}
+#call-one{
+    color:#e5e7eb;
+    font-size: 30px;
+}
+#call-two{
+    font-size: 14px;
+}
+.signup p{
+    margin: 2px;
+}
+
+/* section 6 */
+
+.section-six{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 25px;
+    flex: 1;
+}
+.section-six p{
+    color: #e5e7eb;
+}
+
+
+/* nav bar */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-bar a:hover {
+  color: #3882f6;
+}
+
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  filter: brightness(1.2);
+  background-color: #1f2937;   /* dark background to fit theme */
+  border-radius: 50%;          /* makes it circular */
+  padding: 6px;                /* spacing inside the circle */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(56, 130, 246, 0.6); /* subtle glow */
+}
+

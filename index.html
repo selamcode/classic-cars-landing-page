@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classic cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        window.addEventListener('load', function() {
+            if (window.location.hash) {
+            window.location.hash = ''; // clears the hash
+            window.scrollTo(0, 0);     // scrolls to top
+            }
+        });
+    </script>
+</head>
+<body>
+
+    <!-- Section 1 logo and nav-bar -->
+    <div class="section-one">
+        <div class="logo"> 
+            <img src="images/logo.png" alt="logo" height="75" width="75">    
+        </div>
+
+        <div> 
+            <ul class="nav-bar">
+                <li><a href="#collection">My Favourite Cars</a></li>
+                <li><a href="#quote">Quote</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Section 2 decription and image -->
+
+    <div class="section-two">
+
+        <div class="text-box">
+            <h1 class="about">Timeless Rides</h1>
+            <p>
+                Showcasing my all time favorite classic cars with timeless designs, roaring engines, and unforgettable style.            </p>
+            <button>Sign Up</button>
+        </div>
+        <div><img class="fit" src="images/1969-mustang.jpg" alt="logo" height=400" width="400">    
+       </div>
+
+    </div>
+
+    <!-- Section 3 random info and image with description -->
+
+    <div class="section-three">
+
+    <h1 id="collection">My Favourite Classic</h1>
+
+        <div class="section-three-sub">
+            <ul class="pictures">
+                <li class="car-item">
+                    <img class="fit" src="images/1969-ford-mustang-sportsroof.jpeg" alt="1969 Mustang" >
+                    <p>1969 Ford Mustang Sportsroof – A classic American muscle car with a sleek fastback design, known for its sporty performance and timeless style.</p>
+                </li>
+                <li class="car-item">
+                    <img class="fit" src="images/1967-chevrolet-camaro-rs-ss.jpg" alt="1967 Camaro" >
+                    <p>1967 Chevrolet Camaro RS/SS – Iconic pony car with a bold, aggressive look and strong V8 power, perfect for cruising or racing.</p>
+                </li>
+                <li class="car-item">
+                    <img class="fit" src="images/1970-ford-bronco.jpeg" alt="1970 Bronco" >
+                    <p>1970 Ford Bronco – Rugged, boxy SUV built for off-road adventures, combining durability with classic 4x4 style.</p>
+                </li>
+                <li class="car-item">
+                    <img class="fit" src="images/1970-dodge-challenger-r-t.jpeg" alt="1970 Challenger" >
+                    <p>1970 Dodge Challenger R/T – Powerful muscle car with a striking design, high-performance engine, and aggressive stance.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Section 4 quote -->
+    <div class="section-four" id="quote">
+        <div class="quote">
+            <p >“Classic cars are not just vehicles; 
+                they are dreams on wheels. They capture the imagination, 
+                the artistry, and the engineering genius of their time. 
+                Owning and driving one is like holding a piece of history in your hands, feeling the soul of the past with every turn of the wheel and every note of the engine.” 
+            </p>
+            <p class="who-said-it">- Enzo Ferrari</p>
+        </div>
+        
+    </div>
+
+    <!-- Section sign-up -->
+
+    <div class="section-five" id="signup">
+        <div class="cta-wrapper">
+            <div class="signup">
+                <p id="call-one">Call to action! it's time!</p>
+                <p id="call-two">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button>Sign up</button>
+        </div>
+    </div>
+
+
+    <div class="section-six">
+        <p>Copyright © 2025 Classic Cars. All rights reserved.</p>
+    </div>
+    
+</body>
+</html>
